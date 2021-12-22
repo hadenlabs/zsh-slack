@@ -1,9 +1,11 @@
 <!-- Space: ZshSlack -->
 <!-- Parent: Project -->
-<!-- Title: Functions -->
+<!-- Title: Commands -->
 
-<!-- Label: Functions -->
+<!-- Label: ZshSlack -->
+<!-- Label: Project -->
+<!-- Label: Commands -->
 <!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
 
-## Functions
+## Commands
