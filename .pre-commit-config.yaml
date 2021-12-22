@@ -43,14 +43,11 @@ repos:
       - id: check-docstring-first
       - id: requirements-txt-fixer
       - id: check-symlinks
-      - id: name-tests-test
-        args:
-          - --django
       - id: file-contents-sorter
       - id: fix-encoding-pragma
       - id: sort-simple-yaml
   - repo: https://github.com/hadenlabs/pre-commit-hooks
-    rev: 5a1cf2bd39307f6ea1ae8c3fa708a399ae74f6eb
+    rev: bd40b567556efd1d3b207fd7a43054fb34e644fa
     hooks:
       - id: do-not-commit
       - id: markdown-link-check
@@ -73,10 +70,4 @@ repos:
           - --verbose
       - id: hadolint
         args:
-          - --ignore=SC2001
-          - --ignore=SC2086
-          - --ignore=SC2102
-          - --ignore=DL3008
-          - --ignore=DL3013
-          - --ignore=DL3018
-          - --ignore=DL4006
+          - --config=.github/linters/.hadolint.yaml
